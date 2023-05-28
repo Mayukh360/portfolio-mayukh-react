@@ -2,10 +2,15 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import image from '../assets/prof1.jpg'
+import image from "../assets/prof3.jpg";
+// import { saveAs } from 'file-saver';
+import cv from "../assets/cv.pdf";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  const handleDownloadCV = () => {
+    window.open(cv, "_blank");
+  };
   return (
     <section
       id="home"
@@ -50,15 +55,22 @@ const Landing = ({ setSelectedPage }) => {
             Mayukh {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+              before:absolute before:-left-[25px] before:-top-[100px] before:z-[-1]"
             >
               Chatterjee
             </span>
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+            As a proficient React developer, I optimize performance and enhance
+            UI rendering using React's virtual DOM and declarative syntax. I
+            excel in HTML, CSS, and JavaScript, employing tools like Redux,
+            React Router, and Axios for seamless state management, navigation,
+            and data integration. Additionally, I leverage UI frameworks like
+            Material-UI and testing tools like Jest to ensure efficient
+            development and robust code quality. With strong analytical skills
+            and expertise in data structures and algorithms, I tackle complex
+            challenges and optimize application performance.
           </p>
         </motion.div>
 
@@ -77,10 +89,10 @@ const Landing = ({ setSelectedPage }) => {
           <AnchorLink
             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
               hover:bg-blue hover:text-white transition duration-500"
-            onClick={() => setSelectedPage("contact")}
+            onClick={handleDownloadCV}
             href="#contact"
           >
-            Contact Me
+            Download CV
           </AnchorLink>
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"

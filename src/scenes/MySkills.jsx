@@ -1,8 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import skills from '../assets/skills-image.png'
-
+import skills from "../assets/skills-image.png";
 
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -26,8 +25,12 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            I am a skilled React developer with expertise in various concepts
+            such as React components, hooks, Redux, Redux Thunk, React
+            Bootstrap, Tailwind CSS, HTML, CSS, Material-UI, GitHub Pages,
+            Axios, and Firebase. I possess a comprehensive understanding of
+            these technologies, allowing me to build robust and responsive web
+            applications.
           </p>
         </motion.div>
 
@@ -37,11 +40,7 @@ const MySkills = () => {
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
               before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
             >
-              <img
-                alt="skills"
-                className="z-6 "
-                src={skills}
-              />
+              <img alt="skills" className="z-6 " src={skills} />
             </div>
           ) : (
             <img alt="skills" className="z-6 " src={skills} />
@@ -67,15 +66,20 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                React, Bootstrap, Tailwind CSS
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            React is at the core of my skill set, and I have a deep
+            understanding of its fundamental concepts and principles. From
+            building reusable components to managing state with hooks and Redux,
+            I am well-versed in leveraging React's powerful features to create
+            dynamic and interactive user interfaces. Additionally, I have
+            knowledge integrating React with various libraries and frameworks,
+            such as React Bootstrap and Material-UI, to enhance the visual
+            appeal and functionality of applications. W
           </p>
         </motion.div>
 
@@ -95,16 +99,20 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                HTML,CSS,Javascript
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+            I have a solid foundation in HTML, CSS, and JavaScript, which are
+            the building blocks of modern web development. With HTML, I can
+            structure web content and create semantic markup for better
+            accessibility and SEO. CSS allows me to style and design user
+            interfaces, ensuring a visually appealing and responsive layout.
+            JavaScript empowers me to bring interactivity and dynamic
+            functionality to web applications, enabling smooth user experiences
+            and advanced features.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -123,16 +131,21 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Analytical Skill
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            With my strong analytical skills and problem-solving mindset, I
+            excel at tackling complex challenges in software development. I have
+            honed my problem-solving abilities through extensive practice and
+            have successfully solved over 220 questions on platforms like
+            LeetCode and GeeksforGeeks. This experience has enhanced my logical
+            thinking and algorithmic proficiency, enabling me to efficiently
+            devise optimal solutions for various programming problems. I possess
+            a keen attention to detail, allowing me to identify patterns,
+            optimize code efficiency, and troubleshoot issues effectively.
           </p>
         </motion.div>
       </div>

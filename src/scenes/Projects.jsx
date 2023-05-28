@@ -1,5 +1,13 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import Project1 from '../assets/project-1.jpeg';
+import Project2 from '../assets/project-2.jpeg';
+import Project3 from '../assets/project-3.jpeg';
+import Project4 from '../assets/project-4.jpeg';
+import Project5 from '../assets/project-5.png'
+import Project6 from '../assets/project-6.jpeg';
+import Project7 from '../assets/project-7.jpeg';
+import linkdn from '../assets/linkedin.png'
 
 const container = {
   hidden: {},
@@ -20,7 +28,19 @@ const Project = ({ title }) => {
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
+  // Map the project titles to the corresponding imported image variables
+  const imageMapping = {
+    'project-1': Project1,
+    'project-2': Project2,
+    'project-3': Project3,
+    'project-4': Project4,
+    'project-5': Project5,
+    'project-6': Project6,
+    'project-7': Project7,
+  };
+
   return (
+    <>
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
@@ -29,8 +49,9 @@ const Project = ({ title }) => {
           porttitor accumsan tincidunt.
         </p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={imageMapping[projectTitle]} alt={projectTitle} />
     </motion.div>
+    </>
   );
 };
 
@@ -87,6 +108,7 @@ const Projects = () => {
           <Project title="Project 3" />
           <Project title="Project 4" />
           <Project title="Project 5" />
+         
 
           {/* ROW 3 */}
           <Project title="Project 6" />

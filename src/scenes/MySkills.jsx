@@ -6,6 +6,7 @@ import skills from "../assets/skills-image.png";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
+    <div>
     <section id="skills" className="pt-10 pb-24">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
@@ -145,11 +146,14 @@ const MySkills = () => {
             thinking and algorithmic proficiency, enabling me to efficiently
             devise optimal solutions for various programming problems. I possess
             a keen attention to detail, allowing me to identify patterns,
-            optimize code efficiency, and troubleshoot issues effectively.
+            optimize code efficiency.
           </p>
         </motion.div>
       </div>
+      
     </section>
+    {/* <LineGradient width="w-full"/> */}
+    </div>
   );
 };
 

@@ -3,14 +3,13 @@ import LineGradient from "../components/LineGradient";
 import Project from "./Project";
 import Project1 from "../assets/Resturant.png";
 import Project2 from "../assets/Ecom.png";
-import Expense from '../assets/expense.png'
+import Expense from '../assets/expense.png';
 
 // Import other project images
 
 const Projects = () => {
   // Array of project data
   const projects = [
-   
     {
       title: "Ecommerce Website",
       image: Project2,
@@ -38,14 +37,13 @@ const Projects = () => {
   return (
     <section id="projects" className="pt-48 pb-48">
       {/* HEADINGS */}
-      <p className="font-playfair  font-semibold text-4xl">
-            <span className="text-red ">PRO</span>JECTS
-          </p>
-          <div className="flex  mt-5 mb-5">
-            <LineGradient width="w-2/3" />
-          </div>
-      {/* ... */}
-      
+      <p className="font-playfair font-semibold text-4xl">
+        <span className="text-red">PRO</span>JECTS
+      </p>
+      <div className="flex mt-5 mb-5">
+        <LineGradient width="w-2/3" />
+      </div>
+
       {/* PROJECTS */}
       <div className="flex justify-center">
         <div className="sm:grid sm:grid-cols-3 gap-8">

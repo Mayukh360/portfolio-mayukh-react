@@ -4,6 +4,8 @@ import Project from "./Project";
 import Project1 from "../assets/Resturant.png";
 import Project2 from "../assets/Ecom.png";
 import Expense from '../assets/expense.png';
+import mailbox from '../assets/mailbox.png'
+import dashboard from '../assets/admin.png'
 
 // Import other project images
 
@@ -13,23 +15,37 @@ const Projects = () => {
     {
       title: "Ecommerce Website",
       image: Project2,
-      githubLink: "https://github.com/your-github-link",
+      githubLink: "https://github.com/Mayukh360/Ecommerce-Website-using-React",
       youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
-      chromeLink: "https://your-chrome-link",
+      chromeLink: "https://mayukh360.github.io/Ecommerce-Website-using-React/",
     },
     {
       title: "Expense Tracker",
       image: Expense,
-      githubLink: "https://github.com/your-github-link",
+      githubLink: "https://github.com/Mayukh360/Expensetracker-using-React",
       youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
-      chromeLink: "https://your-chrome-link",
+      chromeLink: "https://mayukh360.github.io/Expensetracker-using-React/",
+    },
+    {
+      title: "Mailbox App",
+      image: Project1,
+      githubLink: "https://github.com/Mayukh360/Restaurant-App-Using-React",
+      youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
+      chromeLink: "https://mayukh360.github.io/Restaurant-App-Using-React/",
     },
     {
       title: "Resturant App",
-      image: Project1,
-      githubLink: "https://github.com/your-github-link",
+      image: mailbox,
+      githubLink: "https://github.com/Mayukh360/mailbox",
       youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
-      chromeLink: "https://your-chrome-link",
+      chromeLink: "https://mayukh360.github.io/mailbox/",
+    },
+    {
+      title: "Admin Dashboard",
+      image: dashboard,
+      githubLink: "https://github.com/Mayukh360/mailbox",
+      youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
+      chromeLink: "https://mayukh360.github.io/mailbox/",
     },
     // Add more project data objects
   ];

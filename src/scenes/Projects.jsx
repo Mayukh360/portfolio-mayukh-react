@@ -3,10 +3,10 @@ import LineGradient from "../components/LineGradient";
 import Project from "./Project";
 import Project1 from "../assets/Resturant.png";
 import Project2 from "../assets/Ecom.png";
-import Expense from '../assets/expense.png';
-import mailbox from '../assets/mailbox.png'
-import dashboard from '../assets/admin.png'
-import groupchat from '../assets/Group-Chat.png'
+import Expense from "../assets/expense.png";
+import mailbox from "../assets/mailbox.png";
+import dashboard from "../assets/admin.png";
+import groupchat from "../assets/Group-Chat.png";
 
 // Import other project images
 
@@ -28,10 +28,17 @@ const Projects = () => {
       chromeLink: "https://mayukh360.github.io/Expensetracker-using-React/",
     },
     {
-      title: "Mailbox App",
+      title: "MailBox",
       image: mailbox,
-      githubLink: "https://github.com/Mayukh360/Restaurant-App-Using-React",
+      githubLink: "https://github.com/Mayukh360/mailbox",
       youtubeLink: "https://www.youtube.com/watch?v=fcy_WC36B8I",
+      chromeLink: "https://mayukh360.github.io/mailbox/",
+    },
+    {
+      title: "Resturant App",
+      image: Project1,
+      githubLink: "https://github.com/Mayukh360/Restaurant-App-Using-React",
+      // youtubeLink: "https://www.youtube.com/watch?v=fcy_WC36B8I",
       chromeLink: "https://mayukh360.github.io/Restaurant-App-Using-React/",
     },
     {
@@ -41,13 +48,7 @@ const Projects = () => {
       // youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
       chromeLink: "https://group-chat-app-by-mayukh.netlify.app",
     },
-    {
-      title: "Resturant App",
-      image: Project1,
-      githubLink: "https://github.com/Mayukh360/mailbox",
-      // youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
-      chromeLink: "https://mayukh360.github.io/mailbox/",
-    },
+
     {
       title: "Admin Dashboard",
       image: dashboard,

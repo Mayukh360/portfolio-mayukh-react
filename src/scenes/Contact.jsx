@@ -6,17 +6,42 @@ import contact from '../assets/contact-image.jpeg'
 const Contact = () => {
   const {
     register,
-    trigger,
-    formState: { errors },
+   formState: { errors },
   } = useForm();
 
   const onSubmit = async (e) => {
-    console.log("~ e", e);
-    const isValid = await trigger();
-    if (!isValid) {
-      e.preventDefault();
-    }
+  e.preventDefault();
+      const { name, email, message } = e.target.elements;
+      const postData = {
+        name: name.value,
+        email: email.value,
+        message: message.value,
+      };
+      console.log(postData)
+      try {
+        const response = await fetch(`https://portfolio-mayukh-985fa-default-rtdb.firebaseio.com/user/${name.value}.json`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(postData),
+        });
+        
+        if (!response.ok) {
+          throw new Error('Request failed');
+        }
+        
+        // Success handling, e.g., show a confirmation message
+        console.log('Message sent successfully');
+        
+      } catch (error) {
+        // Error handling, e.g., show an error message
+        console.error('Error sending message:', error);
+      }
+      e.target.reset();
+    
   };
+  
 
   return (
     <section id="contact" className="contact py-48">
@@ -70,10 +95,9 @@ const Contact = () => {
           className="basis-1/2 mt-10 md:mt-0"
         >
           <form
-            target="_blank"
+            
             onSubmit={onSubmit}
-            action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
-            method="POST"
+          
           >
             <input
               className="w-full bg-blue font-semibold placeholder-opaque-black p-3"

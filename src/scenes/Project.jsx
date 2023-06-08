@@ -3,7 +3,7 @@ import { FaGithub, FaChrome, FaYoutube } from "react-icons/fa";
 
 const Project = ({ title, image, githubLink, youtubeLink, chromeLink }) => {
   return (
-    <div className="bg-gradient-to-br from-indigo-500 to-blue-500 p-4 hover:scale-105 transition duration-300">
+    <div className="bg-gradient-to-b from-pink-500 to-purple-900 p-4 hover:scale-105 transition duration-300">
       <h3 className="text-xl text-gray-100 font-bold mb-2">{title}</h3>
       <img src={image} alt={title} className="mb-4" />
       <div className="flex justify-between">

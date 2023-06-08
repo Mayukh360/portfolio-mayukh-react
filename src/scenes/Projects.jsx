@@ -6,6 +6,7 @@ import Project2 from "../assets/Ecom.png";
 import Expense from '../assets/expense.png';
 import mailbox from '../assets/mailbox.png'
 import dashboard from '../assets/admin.png'
+import groupchat from '../assets/Group-Chat.png'
 
 // Import other project images
 
@@ -16,36 +17,43 @@ const Projects = () => {
       title: "Ecommerce Website",
       image: Project2,
       githubLink: "https://github.com/Mayukh360/Ecommerce-Website-using-React",
-      youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
+      youtubeLink: "https://www.youtube.com/watch?v=dIlMJccFr-E",
       chromeLink: "https://mayukh360.github.io/Ecommerce-Website-using-React/",
     },
     {
       title: "Expense Tracker",
       image: Expense,
       githubLink: "https://github.com/Mayukh360/Expensetracker-using-React",
-      youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
+      youtubeLink: "https://www.youtube.com/watch?v=YhTgGHmcEF4",
       chromeLink: "https://mayukh360.github.io/Expensetracker-using-React/",
     },
     {
       title: "Mailbox App",
-      image: Project1,
+      image: mailbox,
       githubLink: "https://github.com/Mayukh360/Restaurant-App-Using-React",
-      youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
+      youtubeLink: "https://www.youtube.com/watch?v=fcy_WC36B8I",
       chromeLink: "https://mayukh360.github.io/Restaurant-App-Using-React/",
     },
     {
+      title: "Group Chat App",
+      image: groupchat,
+      githubLink: "https://github.com/Mayukh360/Group-Chat-App",
+      // youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
+      chromeLink: "https://group-chat-app-by-mayukh.netlify.app",
+    },
+    {
       title: "Resturant App",
-      image: mailbox,
+      image: Project1,
       githubLink: "https://github.com/Mayukh360/mailbox",
-      youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
+      // youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
       chromeLink: "https://mayukh360.github.io/mailbox/",
     },
     {
       title: "Admin Dashboard",
       image: dashboard,
       githubLink: "https://github.com/Mayukh360/mailbox",
-      youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
-      chromeLink: "https://mayukh360.github.io/mailbox/",
+      // youtubeLink: "https://www.youtube.com/watch?v=your-youtube-link",
+      // chromeLink: "https://mayukh360.github.io/mailbox/",
     },
     // Add more project data objects
   ];

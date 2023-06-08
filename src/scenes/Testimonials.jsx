@@ -21,15 +21,14 @@ const Testimonials = () => {
         </p>
         <LineGradient width="mx-auto w-2/5" />
         <p className="mt-10">
-          Here's What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
+        Discover the buzz surrounding my freelance work through the glowing testimonials of satisfied clients:
         </p>
       </motion.div>
 
       {/* TESTIMONIALS */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative bg-blue max-w-[400px] h-[300px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-blue max-w-[400px] h-[550px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1 "
           initial="hidden"
           whileInView="visible"
@@ -42,12 +41,12 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+          Dear Mayukh, I wanted to take this opportunity to express my heartfelt gratitude for creating a stunning website for my tailoring shop. Your impeccable design skills and technical expertise have transformed my online presence and helped attract new customers. I am truly grateful for your hard work and dedication in bringing my vision to life.  - Annapurna
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[300px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-red max-w-[400px] h-[550px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
           initial="hidden"
           whileInView="visible"
@@ -60,13 +59,15 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
-            lectus.
+            Mayukh, I wanted to extend my sincerest thanks for designing a
+            remarkable website for my restaurant. Your expertise and creativity
+            have greatly enhanced our online presence and customer experience.
+            We are incredibly grateful for your hard work and dedication. - Debabrata
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[300px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-yellow max-w-[400px] h-[550px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person3"
           initial="hidden"
           whileInView="visible"
@@ -79,7 +80,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+           I wanted to express my deepest appreciation for developing an exceptional website for my retail shop. Your expertise in web design and attention to detail have helped showcase our products in the best possible way. Thank you for your hard work and commitment to making our online presence a success.- Animesh
           </p>
         </motion.div>
       </div>

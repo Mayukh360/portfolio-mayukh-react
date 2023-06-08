@@ -51,7 +51,7 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full mb-1">
+      <div  className="w-5/6 mx-auto md:h-full mb-96">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -60,7 +60,7 @@ function App() {
           <MySkills />
         </motion.div>
       </div>
-      <br/>
+      <br/><br/><br/><br/><br/><br/><br/> <br/> <br/><br/><br/><br/><br/><br/><br/> <br/><br/><br/><br/><br/><br/> 
       <LineGradient />
       <div className="w-5/6 mx-auto">
         <motion.div
@@ -73,7 +73,7 @@ function App() {
       </div>
       
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full mb-96">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -83,7 +83,7 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full mb-16">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"

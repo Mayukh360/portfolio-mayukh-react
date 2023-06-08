@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-mayukh-react/static/css/main.de86d6e1.css",
+    "main.js": "/portfolio-mayukh-react/static/js/main.24883582.js",
+    "static/media/Resturant.png": "/portfolio-mayukh-react/static/media/Resturant.22957ab6e2663453564b.png",
+    "static/media/Ecom.png": "/portfolio-mayukh-react/static/media/Ecom.155482f83c3c38fde318.png",
+    "static/media/Group-Chat.png": "/portfolio-mayukh-react/static/media/Group-Chat.35fab7f702fbb9b5077f.png",
+    "static/media/expense.png": "/portfolio-mayukh-react/static/media/expense.8bfeb870ba26b8a663d7.png",
+    "static/media/mailbox.png": "/portfolio-mayukh-react/static/media/mailbox.8729d979a5fe913714a5.png",
+    "static/media/cv.pdf": "/portfolio-mayukh-react/static/media/cv.d11486e9ff25196b8b32.pdf",
+    "static/media/skills-image.png": "/portfolio-mayukh-react/static/media/skills-image.51e40da64df180a7669a.png",
+    "static/media/contact-image.jpeg": "/portfolio-mayukh-react/static/media/contact-image.37fcb61b49d6aa5c40d3.jpeg",
+    "static/media/admin.png": "/portfolio-mayukh-react/static/media/admin.687077db93a19d9c2954.png",
+    "static/media/person-1.png": "/portfolio-mayukh-react/static/media/person-1.23ad269af7ef9e793d97.png",
+    "static/media/person-2.png": "/portfolio-mayukh-react/static/media/person-2.3650fef30a7e74f827a7.png",
+    "static/media/person-3.png": "/portfolio-mayukh-react/static/media/person-3.9a1a2228e7f1d246d404.png",
+    "static/media/brush.png": "/portfolio-mayukh-react/static/media/brush.85c9bab5ba2d7dcae1e3.png",
+    "static/media/prof3.jpg": "/portfolio-mayukh-react/static/media/prof3.387dd7cbc51011f559aa.jpg",
+    "index.html": "/portfolio-mayukh-react/index.html",
+    "static/media/close-icon.svg": "/portfolio-mayukh-react/static/media/close-icon.36a1df96f812b5f4c12f817f90a904c6.svg",
+    "static/media/menu-icon.svg": "/portfolio-mayukh-react/static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
+    "main.de86d6e1.css.map": "/portfolio-mayukh-react/static/css/main.de86d6e1.css.map",
+    "main.24883582.js.map": "/portfolio-mayukh-react/static/js/main.24883582.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de86d6e1.css",
+    "static/js/main.24883582.js"
+  ]
+}

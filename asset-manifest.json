@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-mayukh-react/static/css/main.de86d6e1.css",
-    "main.js": "/portfolio-mayukh-react/static/js/main.8ef5b034.js",
+    "main.js": "/portfolio-mayukh-react/static/js/main.7312fa66.js",
     "static/media/Resturant.png": "/portfolio-mayukh-react/static/media/Resturant.22957ab6e2663453564b.png",
     "static/media/Ecom.png": "/portfolio-mayukh-react/static/media/Ecom.155482f83c3c38fde318.png",
     "static/media/Group-Chat.png": "/portfolio-mayukh-react/static/media/Group-Chat.35fab7f702fbb9b5077f.png",
@@ -20,10 +20,10 @@
     "static/media/close-icon.svg": "/portfolio-mayukh-react/static/media/close-icon.36a1df96f812b5f4c12f817f90a904c6.svg",
     "static/media/menu-icon.svg": "/portfolio-mayukh-react/static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
     "main.de86d6e1.css.map": "/portfolio-mayukh-react/static/css/main.de86d6e1.css.map",
-    "main.8ef5b034.js.map": "/portfolio-mayukh-react/static/js/main.8ef5b034.js.map"
+    "main.7312fa66.js.map": "/portfolio-mayukh-react/static/js/main.7312fa66.js.map"
   },
   "entrypoints": [
     "static/css/main.de86d6e1.css",
-    "static/js/main.8ef5b034.js"
+    "static/js/main.7312fa66.js"
   ]
 }
